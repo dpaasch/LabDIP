@@ -1,7 +1,6 @@
 package dip.lab2.student.solution1;
 
-// An useful import if you need it.
-import dip.lab2.*;
+// A useful import if you need it.
 import java.text.NumberFormat;
 // Another useful import if you need it.
 import javax.swing.JOptionPane;
@@ -17,7 +16,7 @@ import javax.swing.JOptionPane;
  *    high-level class. Did it work? Are the low-level instances
  *    interchangeable? The DIP requires this.
  * 
- * @author your name goes here
+ * @author Dawn Bykowski
  */
 public class Startup {
     public static enum ServiceQuality {

@@ -1,14 +1,12 @@
 package dip.lab2.student.solution1;
 
-import dip.lab2.*;
-
 /**
  * An example low-level class. Does this class definition follow the DIP?
  * If not, fix it.
  *
  * Any other best practice violations? Fix them too.
  *
- * @author your name goes here
+ * @author Dawn Bykowski
  */
 public class BaggageServiceTipCalculator {
     private static final double MIN_BILL = 0.00;
@@ -34,7 +32,7 @@ public class BaggageServiceTipCalculator {
         baseTipPerBag = 1.00; // set default value
     }
 
-    public double getTipForBaggeHandler() {
+    public double getTip() {
         double tip = 0.00; // always initialize local variables
 
         switch(serviceQuality) {

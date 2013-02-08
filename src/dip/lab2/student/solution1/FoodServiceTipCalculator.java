@@ -1,14 +1,12 @@
 package dip.lab2.student.solution1;
 
-import dip.lab2.*;
-
 /**
  * An example low-level class. Does this class definition follow the DIP?
  * If not, fix it.
  *
  * Any other best practice violations? Fix them too.
  *
- * @author your name goes here
+ * @author Dawn Bykowski
  */
 public class FoodServiceTipCalculator {
     private static final double MIN_BILL = 0.00;
