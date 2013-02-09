@@ -14,11 +14,7 @@ public class ServiceHandler {
     public ServiceHandler(TipCalculator tipCalc) {
         tipCalculator = tipCalc;
     }
-    
-    // Constructor: no argument, as it is the default constructor
-    public ServiceHandler() {
-        
-    }
+
     
     
     
