@@ -34,6 +34,7 @@ public class BaggageServiceTipCalculator implements TipCalculator {
         baseTipPerBag = 1.00; // set default value
     }
 
+    // Inherited this method from the interface.
     @Override
     public double getTip() {
         double tip = 0.00; // always initialize local variables
