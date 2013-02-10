@@ -46,7 +46,7 @@ public class Startup {
         // Create an instance of your high-level class.
         ServiceHandler serviceHandler = new ServiceHandler();
         System.out.println("\n*****ServiceHandler*****");
-        System.out.println("ServiceHandler.." 
+        System.out.println("ServiceHandler.. $" 
                 + dollar.format(serviceHandler.getTip(foodCalc)));
 
         // Pass one of your calculator instances to the high-level class and 
