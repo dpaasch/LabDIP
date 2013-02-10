@@ -15,7 +15,11 @@ public class ServiceHandler {
         tipCalculator = tipCalc;
     }
 
-    
-    
-    
+    public void setTipCalculator(TipCalculator tipCalculator) {
+        if(tipCalculator == null) {
+            throw new NullPointerException();
+        }
+        this.tipCalculator = tipCalculator;
+    }
+     
 }
