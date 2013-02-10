@@ -16,6 +16,11 @@ public class ServiceHandler {
         tipCalculator = t;
     }
     
+    // Constructor: default constructor
+    public ServiceHandler() {
+        
+    }
+    
     // This passes the TipCalculator object to the getTip() method.
     public double getTip(TipCalculator t) {
         return t.getTip();
