@@ -1,5 +1,7 @@
 package dip.lab2.student.solution1;
 
+import java.text.DecimalFormat;
+
 /**
  * An example low-level class. Does this class definition follow the DIP?
  * If not, fix it.
@@ -84,4 +86,18 @@ public class BaggageServiceTipCalculator implements TipCalculator {
         this.baseTipPerBag = baseTipPerBag;
     }
 
+        // Method toString(): represents the state of an object
+    @Override
+    public String toString() {
+
+        // Create a DecimalFormat object to better display the pay rate
+        DecimalFormat dollar = new DecimalFormat("#,##0.00");
+
+        String baggageCalc = "*****BaggageServiceTipCalculator*****" 
+                + "\n Service Quality: \t" + serviceQuality
+                + "\n Number of Bags: \t" + bagCount
+                + "\n Baggage Tip: \t\t$" + dollar.format(getTip());
+        // Return the string.
+        return baggageCalc;
+    }
 }
